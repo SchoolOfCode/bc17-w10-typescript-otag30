@@ -42,7 +42,9 @@ Navigate to the [TypeScript Playground](https://www.typescriptlang.org/play) and
                                 let fruits: string[] = ["orange", "banana", "peach"];
 
 2.  Declare and implement a function which takes in two numbers and returns their sum. Have type annotations for both the parameters and the return value (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions).
-
+    function sum(arg1: number, arg2: number): number {
+    return arg1 + arg2;
+    }
 3.  Declare a new type that describes an object (hint: https://www.typescriptlang.org/docs/handbook/2/objects.html) containing the keys and types below:
 
     - amount: a number
