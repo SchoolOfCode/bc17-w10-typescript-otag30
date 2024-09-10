@@ -2,7 +2,7 @@
 
 The aim here is to become more familiar with TypeScript, not to finish all the tasks.
 
-## Task 1
+## Task 1✅
 
 Navigate to the [TypeScript Playground](https://www.typescriptlang.org/play) and have a go at the following things:
 
@@ -77,8 +77,8 @@ The aim of this task is to convert an existing rock, paper, scissors game (in `t
 
 (Normally, if you're going to use TypeScript, you would just write the app directly in TypeScript from the start. However, sometimes you might have to migrate an older/existing codebase to TypeScript.)
 
-1. `cd` into the `task-2` folder and run `npm i` to install required dependencies.
-2. Rename `src/game.js` to `src/game.ts`.
+1. `cd` into the `task-2` folder and run `npm i` to install required dependencies.✅
+2. Rename `src/game.js` to `src/game.ts`.✅
    - If your IDE starts underlining errors/problems in red, that's normal and they'll disappear as you work through the task and complete the migration.
 3. Get the contents of `src/game.ts` to compile by adding type annotations where needed (e.g. function parameters) and fixing the errors from TypeScript. (You can optionally use `npm run dev` to see immediate feedback as you make changes. Be prepared to see lots of errors at the start.)
 
