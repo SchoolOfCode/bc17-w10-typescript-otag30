@@ -63,6 +63,12 @@ Navigate to the [TypeScript Playground](https://www.typescriptlang.org/play) and
 4.  Declare a new type alias named `Colour` which is either: "BLUE" or "YELLOW" (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types).
     - See if you can then declare a variable that has an explicit type annotation of `Colour`. You should not be able to assign any non-strings or any strings other than `"BLUE"` or `"YELLOW"` to the variable.
 
+type Colour = "BLUE" | "YELLOW";
+let myColour: Colour;
+myColour = "BLUE"; // Valid
+myColour = "YELLOW"; // Valid
+myColour = "RED"; // Error: Type '"RED"' is not assignable to type 'Colour'.
+
 See how you can break the Typescript functionality as much as use it correctly. Learn what it can and can't do!
 
 ## Task 2
